@@ -67,6 +67,8 @@ except FileNotFoundError:
     print("ARCHIVO NO ENCONTRADO!!!")
 except ValueError as e:
     print(e)
+except TypeError as e:
+    print(e)
 
 print("FIN DEL PROGRAMA!!")
 
